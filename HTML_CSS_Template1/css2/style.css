@@ -1,0 +1,61 @@
+/*
+    1- common styles
+    2- general styles
+    3- sections
+        3.1- HOME
+        3.2- ABOUT
+        3.3- PORTFOLIO
+        3.4- SERVICES
+        3.5- PRICES
+        3.6- TEAM
+        3.7- BLOG PAGE
+        3.8- CONTACT
+*/
+/* Common */
+/*
+    - container
+    - overlay
+    - opacity hover
+    - section header
+    - section padding
+    - hover effect 1 (left to right)
+    - hover effect 2 (top to bottom)
+
+*/
+/* GENERAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* css 3 */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+:root{
+    --colorMain: #6195ff;
+    --grayColor: #999;
+    --bg-gray: #f9f9f9;
+    --whiteColor: #fff;
+}
+ul {
+    list-style: none;
+}
+.hover-opacity:hover{
+    opacity: 0.7;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: monospace,sans-serif;
+}
+.clear {
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+.pd-y{
+    padding: 120px 0;
+}
+
+/

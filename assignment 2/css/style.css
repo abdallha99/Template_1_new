@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* Start Header */
+header {
+    background: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80) fixed center center
+      no-repeat/cover;
+    height: 500px;
+  }
+
+  header h1,
+header h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+}
+
+header h1 {
+    margin-bottom: 40px;
+    padding-top: 60px;
+  }
+
+  header h1 span {
+    color: orange;
+  }
+
+  header h2 {
+    background-color: orange;
+    padding: 20px;
+  }
+  /* End Header */
+
+  /* Start Navbar */
+nav {
+    overflow: hidden;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 100px;
+  }
+
+  nav h2 {
+    float: left;
+  }
+
+  nav ul {
+    float: right;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  nav ul li a:hover {
+    color: orange;
+  }
+  /* End Navbar */
+
+  /* Start Main Content */
+  main {
+    overflow: hidden;
+    padding: 100px 0;
+  }
+
+  main .container {
+    width: 80%;
+    margin: auto;
+    background-color: #f4f4f4;
+  }
+
+  main .box {
+    width: 32%;
+    float: left;
+    height: auto;
+    margin-right: 2%;
+    border: 1px solid #ccc;
+    padding: 3px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+  main .box:last-child {
+    margin-right: 0;
+  }
+
+  main .box img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  /* End Main Content */
+  
+/* Start Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background-color: #333;
+  }
+  /* End Footer */

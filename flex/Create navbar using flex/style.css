@@ -1,0 +1,39 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    background: #EEE;
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li 
+{
+    padding: 10px;
+}
+
+nav a 
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media (max-width: 768px)
+{
+    nav ul {
+        text-align: center;
+        flex-direction: column;
+    }
+    nav ul li {
+                border-bottom: 1px solid #000; 
+    }
+}

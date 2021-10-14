@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin: 100px auto;
+    width: 960px;
+    border: 1px solid #000;
+}
+
+header, footer {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+    color: white;
+}
+
+.content {
+    background: #080;
+    flex-grow: 1;
+    order: 2;
+    flex-basis: 500px;
+}
+
+.sidebar {
+    background: #00f;
+    order: 1;
+    flex-basis: 300px;
+}
+
+.links {
+    background: #f00;
+    flex-basis: 300px;
+    order: 3;
+}
